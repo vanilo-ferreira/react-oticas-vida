@@ -1,0 +1,22 @@
+header {
+    padding: 10px 15px;
+}
+
+.topo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem-topo {
+    width: 150px;
+}
+
+.link-topo {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px 5px;
+}
