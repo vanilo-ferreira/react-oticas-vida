@@ -1,9 +1,8 @@
 .secao-capa {
-    background-image: url('/public/assets/capa.png');
+    background-image: url('/public/assets/capa.png'), linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
     height: 80vh;
 }
 
@@ -19,11 +18,13 @@
 .texto-capa {
     max-width: 500px;
     font-family: 'Anybody', cursive;
+    text-align: left;
 }
 
 .paragrafo-capa {
     font-size: 36px;
-    color: rgb(196, 196, 196)
+    color: rgb(196, 196, 196);
+    text-align: left;
 }
 
 .titulo-capa {
