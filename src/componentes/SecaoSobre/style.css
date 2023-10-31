@@ -1,0 +1,49 @@
+section {
+    background-color: #F8f7ff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.paragrafo-secao-sobre {
+    line-height: 32px;
+}
+
+.box-cards {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-cards img,
+.box-cards div {
+    width: 50%;
+    max-height: 300px;
+    border: solid 1px #a2adad;
+}
+
+.box-cards img {
+    object-fit: cover;
+}
+
+.box-cards div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 25px;
+}
+
+.box-cards h3 {
+    font-size: 36px;
+    font-family: 'Anybody', cursive;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 42px;
+}
+
+.box-cards p {
+    font-size: 22px;
+    color: #4a4a4a;
+}
