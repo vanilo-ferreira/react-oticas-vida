@@ -1,10 +1,12 @@
+import './style.css';
+
 export default function SecaoContato() {
     return (
-        <section id="contato">
-            <div>
-                <h2>FALE CONOSCO</h2>
+        <section id="contato" className='secao-contato'>
+            <div className='limitar-secao'>
+                <h2 className="texto-subtitulo">FALE CONOSCO</h2>
                 <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>
-                <div>
+                <div className='container-contato'>
                     <div>
                         <h3>Contato</h3>
                         <figure>

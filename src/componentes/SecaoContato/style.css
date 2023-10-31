@@ -1,0 +1,34 @@
+.secao-contato {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.container-contato {
+    display: flex;
+    justify-content: center;
+}
+
+.container-contato div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: flex-start;
+}
+
+.container-contato figure{
+    display: flex;
+    margin: 5px 0px;
+    align-items: center;
+}
+
+.container-contato img {
+    width: 18px;
+}
+
+.container-contato figcaption {
+    font-size: 14px;
+    margin-left: 10px;
+}
