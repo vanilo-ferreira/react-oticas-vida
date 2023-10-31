@@ -53,3 +53,22 @@
     text-align: left;
     margin: 5px;
 }
+
+@media(max-width: 768px)
+{
+    .secao-produtos {
+        padding: 60px 20px;
+    }
+
+    .produtos-card h3{
+        font-size: 22px;
+    }
+
+    .produtos-card img{
+        max-height: 100px;
+    }
+
+    .produtos-card p {
+        font-size: 16px;
+    }
+}

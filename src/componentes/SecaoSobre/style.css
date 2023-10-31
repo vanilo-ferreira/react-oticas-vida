@@ -47,3 +47,22 @@ section {
     font-size: 22px;
     color: #4a4a4a;
 }
+
+@media(max-width: 768px)
+{
+    section {
+        padding: 60px 20px;
+    }
+
+    .box-cards div{
+        padding: 15px;
+    }
+
+    .box-cards h3 {
+        font-size: 22px;
+    }
+    
+    .box-cards p {
+        font-size: 16px;
+    }
+}

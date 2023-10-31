@@ -32,3 +32,11 @@
     font-size: 14px;
     margin-left: 10px;
 }
+
+@media(max-width: 768px)
+{
+    .secao-contato {
+        padding: 60px 20px;
+    }
+
+}
