@@ -72,3 +72,18 @@
         font-size: 16px;
     }
 }
+
+@media(max-width: 550px)
+{
+    .secao-produtos {
+        padding: 0px 10px;
+    }
+
+    .produtos-card {
+        width: 100%;
+    }
+
+    .lista-produtos {
+        align-items: flex-start;
+    }
+}
